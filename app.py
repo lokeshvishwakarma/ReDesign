@@ -102,9 +102,7 @@ class DeliSys(QtWidgets.QWidget):
         file_dialog = QtWidgets.QFileDialog(self)
         file_dialog.setFileMode(QtWidgets.QFileDialog.Directory)
         dirname = file_dialog.getExistingDirectory()
-        self.src_dir_ledit.setText(dirname)
-        files_path = self.src_dir_ledit.text()
-        self.load_data(files_path)
+        self.output_dir_ledit.setText(dirname)
 
     def load_data(self, files_path):
         if not files_path:
