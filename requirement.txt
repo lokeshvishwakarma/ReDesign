@@ -1,0 +1,4 @@
+future==0.18.2
+Lucidity==1.6.0
+PySide2==5.15.2.1
+shiboken2==5.15.2.1
