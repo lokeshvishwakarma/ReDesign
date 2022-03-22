@@ -7,7 +7,6 @@ import PySide2.QtCore as QtCore
 import PySide2.QtWidgets as QtWidgets
 import lucidity as lc
 
-BASE_SHOW_URL = "D:\\Projects\\REDESIGN"
 template = lc.Template('SAM_Template',
                        "{OUTPUT_DIR}" +
                        '\\{PROJECTNAME}\\{DATE}\\{PROJECTNAME}_{SHOTNAME}\\{TASKNAME}\\{EXT}\\'
